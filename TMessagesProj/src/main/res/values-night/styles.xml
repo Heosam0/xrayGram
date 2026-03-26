@@ -1,0 +1,20 @@
+<resources
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.TMessages.Start" parent="Theme.AppCompat">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Transparent.TMessages.Start</item>
+        <item name="android:colorBackground">#121212</item> <item name="android:windowBackground">#121212</item> <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorPrimaryDark">#000000</item> <item name="android:colorPrimary">#1E1E1E</item> <item name="android:navigationBarColor">#000000</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/tg_splash_320</item>
+        <item name="android:windowSplashScreenAnimationDuration">@integer/splash_screen_duration</item>
+        <item name="android:windowSplashScreenBackground">#121212</item> </style>
+
+    <style name="ActionBar.Transparent.TMessages.Start" parent="android:style/Widget.Material.ActionBar">
+        <item name="android:background">#FF1E1E1E</item> <item name="android:textColor">#E0E0E0</item> <item name="android:logo">@drawable/transparent</item>
+        <item name="android:title">""</item>
+    </style>
+
+</resources>
